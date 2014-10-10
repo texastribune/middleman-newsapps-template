@@ -1,0 +1,14 @@
+{
+  "name": "middleman-newsapp",
+  "private": true,
+  "dependencies": {
+    "jquery": "1.11.1",
+    "underscore": "1.7.0",
+    "backbone": "1.1.2",
+    "marionette": "1.8.5",
+    "newsapps-styles": "texastribune/newsapps-styles#0.4",
+    "pym.js": "~0.3.1",
+    "tablesift.js": ">0.0.9"
+  },
+  "devDependencies": {}
+}
