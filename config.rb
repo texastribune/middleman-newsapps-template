@@ -1,5 +1,4 @@
 require 'builder'
-require 's3_gzip'
 
 set :css_dir, 'stylesheets'
 set :js_dir,  'javascripts'
