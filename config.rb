@@ -6,7 +6,6 @@ set :images_dir, 'images'
 
 activate :asset_hash
 activate :bower
-activate :bourbon
 activate :livereload
 
 configure :build do
