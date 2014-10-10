@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!-- Use title if it's in the page YAML frontmatter -->
+
+  <title><%= current_page.data.title || locals[:title] || "The Texas Tribune" %></title>
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <%= stylesheet_link_tag "normalize", "all" %>
+  <!--[if lt IE 9]>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+  <link href="/css/ie.css" rel="stylesheet">
+  <![endif]-->
+</head>
+<body>
+  <%= yield %>
+  <%= javascript_include_tag  "all" %>
+  <!--[if lt IE 9]>
+  <script src="//s3.amazonaws.com/cdn.texastribune.org/lib/aight/1.2.0/aight.events.min.js"></script>
+  <![endif]-->
+</body>
+</html>
