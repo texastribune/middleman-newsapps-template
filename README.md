@@ -13,3 +13,8 @@ then use the new template argument for the ```middleman init``` command:
 ```middleman init my_new_project --template=newsapp```
 
 Easy peasy!
+
+## TODO
+
+* Assets should be included on relative path
+* CSV to HTML helper
